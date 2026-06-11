@@ -1,0 +1,47 @@
+{
+  "name": "astra",
+  "metadata": {
+    "description": "Astra marketplace for Claude Code: lead-guided engineering workflow (`crew`), Wiggin-Loop methodology layer (`loop`), and cortex memory-service bridge (`cortex`). Central registry — plugins live in their own repos."
+  },
+  "owner": {
+    "name": "astra"
+  },
+  "plugins": [
+    {
+      "name": "crew",
+      "description": "Lead-guided engineering workflow plugin for Claude Code with bounded subagents, quality gates, and inspectable handoffs",
+      "version": "0.33.2",
+      "source": {
+        "source": "github",
+        "repo": "sergeymilashico/hero-crew"
+      },
+      "author": {
+        "name": "astra"
+      }
+    },
+    {
+      "name": "loop",
+      "description": "Wiggin-Loop methodology layer for Claude Code with HARD RULE blocks, slice scaffold, and phase-gate runner",
+      "version": "0.41.0",
+      "source": {
+        "source": "github",
+        "repo": "sergeymilashico/loop"
+      },
+      "author": {
+        "name": "astra"
+      }
+    },
+    {
+      "name": "cortex",
+      "description": "Slash commands (/recall, /remember) + PreCompact and SessionEnd hooks bridging Claude Code to the local cortex memory service. Thin UX layer on top of the cortex MCP server.",
+      "version": "0.1.0",
+      "source": {
+        "source": "github",
+        "repo": "sergeymilashico/hero-cortex"
+      },
+      "author": {
+        "name": "astra"
+      }
+    }
+  ]
+}
