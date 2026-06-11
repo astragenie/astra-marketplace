@@ -21,7 +21,7 @@ Add only the plugins you want.
 |----------|------------------------------------------------------------|---------|
 | `crew`   | [sergeymilashico/hero-crew](https://github.com/sergeymilashico/hero-crew)     | Lead-guided engineering workflow, bounded subagents, quality gates |
 | `loop`   | [sergeymilashico/loop](https://github.com/sergeymilashico/loop)               | Wiggin-Loop methodology, HARD RULE blocks, slice scaffold, phase-gate runner |
-| `cortex` | [sergeymilashico/hero-cortex](https://github.com/sergeymilashico/hero-cortex) | Slash commands + auto-capture hooks bridging Claude Code to the local cortex memory service |
+| `cortex` | [sergeymilashico/cortex](https://github.com/sergeymilashico/cortex) | Slash commands + auto-capture hooks bridging Claude Code to the local cortex memory service |
 
 ## Releasing a new plugin version
 
