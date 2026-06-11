@@ -37,7 +37,7 @@
       "version": "0.1.0",
       "source": {
         "source": "github",
-        "repo": "sergeymilashico/cortex"
+        "repo": "sergeymilashico/cortex-plugin"
       },
       "author": {
         "name": "astra"
