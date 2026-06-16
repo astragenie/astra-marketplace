@@ -19,9 +19,9 @@ Add only the plugins you want.
 
 | Plugin   | Repo                                                       | Purpose |
 |----------|------------------------------------------------------------|---------|
-| `crew`   | [sergeymilashico/hero-crew](https://github.com/sergeymilashico/hero-crew)     | Lead-guided engineering workflow, bounded subagents, quality gates |
-| `loop`   | [sergeymilashico/loop](https://github.com/sergeymilashico/loop)               | Wiggin-Loop methodology, HARD RULE blocks, slice scaffold, phase-gate runner |
-| `cortex` | [sergeymilashico/cortex-plugin](https://github.com/sergeymilashico/cortex-plugin) | Slash commands + auto-capture hooks bridging Claude Code to the local cortex memory service |
+| `crew`   | [astragenie/dev-team](https://github.com/astragenie/dev-team)     | Lead-guided engineering workflow, bounded subagents, quality gates |
+| `loop`   | [astragenie/runner-plugin](https://github.com/astragenie/runner-plugin)               | Wiggin-Loop methodology, HARD RULE blocks, slice scaffold, phase-gate runner |
+| `cortex` | [astragenie/memory-plugin](https://github.com/astragenie/memory-plugin) | Slash commands + auto-capture hooks bridging Claude Code to the local cortex memory service |
 
 ## Releasing a new plugin version
 

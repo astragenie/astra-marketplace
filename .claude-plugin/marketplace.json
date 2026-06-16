@@ -13,7 +13,7 @@
       "version": "0.35.3",
       "source": {
         "source": "github",
-        "repo": "sergeymilashico/hero-crew"
+        "repo": "astragenie/dev-team"
       },
       "author": {
         "name": "astra"
@@ -25,7 +25,7 @@
       "version": "0.42.0",
       "source": {
         "source": "github",
-        "repo": "sergeymilashico/loop"
+        "repo": "astragenie/runner-plugin"
       },
       "author": {
         "name": "astra"
@@ -37,7 +37,7 @@
       "version": "0.1.0",
       "source": {
         "source": "github",
-        "repo": "sergeymilashico/cortex-plugin"
+        "repo": "astragenie/memory-plugin"
       },
       "author": {
         "name": "astra"
