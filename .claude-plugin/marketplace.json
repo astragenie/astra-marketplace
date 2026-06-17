@@ -1,7 +1,7 @@
 {
   "name": "astra",
   "metadata": {
-    "description": "Astra marketplace for Claude Code: lead-guided engineering workflow (`crew`), Wiggin-Loop methodology layer (`loop`), and cortex memory-service bridge (`cortex`). Central registry — plugins live in their own repos."
+    "description": "Astra marketplace for Claude Code: lead-guided engineering workflow (`crew`), Wiggin-Loop methodology layer (`runner`), and cortex memory-service bridge (`cortex`). Central registry — plugins live in their own repos."
   },
   "owner": {
     "name": "astra"
@@ -10,7 +10,7 @@
     {
       "name": "crew",
       "description": "Lead-guided engineering workflow plugin for Claude Code with bounded subagents, quality gates, and inspectable handoffs",
-      "version": "0.35.3",
+      "version": "0.36.0",
       "source": {
         "source": "github",
         "repo": "astragenie/dev-team"
@@ -20,9 +20,9 @@
       }
     },
     {
-      "name": "loop",
+      "name": "runner",
       "description": "Wiggin-Loop methodology layer for Claude Code with HARD RULE blocks, slice scaffold, and phase-gate runner",
-      "version": "0.42.0",
+      "version": "0.51.0",
       "source": {
         "source": "github",
         "repo": "astragenie/runner-plugin"
