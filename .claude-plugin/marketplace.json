@@ -1,7 +1,7 @@
 {
   "name": "astra",
   "metadata": {
-    "description": "Astra marketplace for Claude Code: lead-guided engineering workflow (`crew`), Wiggin-Loop methodology layer (`runner`), and cortex memory-service bridge (`cortex`). Central registry — plugins live in their own repos."
+    "description": "Astra marketplace for Claude Code: lead-guided engineering workflow (`crew`), Wiggin-Loop methodology layer (`runner`), and AstraMemory bridge (`memory`). Central registry — plugins live in their own repos."
   },
   "owner": {
     "name": "astra"
@@ -32,9 +32,9 @@
       }
     },
     {
-      "name": "cortex",
-      "description": "Slash commands (/recall, /remember) + PreCompact and SessionEnd hooks bridging Claude Code to the local cortex memory service. Thin UX layer on top of the cortex MCP server.",
-      "version": "0.1.0",
+      "name": "memory",
+      "description": "Slash commands (/recall, /remember) + PreCompact and SessionEnd hooks bridging Claude Code to the AstraMemory service. Thin UX layer on top of the memory MCP server.",
+      "version": "0.2.0",
       "source": {
         "source": "github",
         "repo": "astragenie/memory-plugin"

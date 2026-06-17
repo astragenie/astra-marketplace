@@ -10,7 +10,7 @@ This repo contains exactly one source of truth — `.claude-plugin/marketplace.j
 /plugin marketplace add astragenie/astra-marketplace
 /plugin install crew@astra
 /plugin install runner@astra
-/plugin install cortex@astra
+/plugin install memory@astra
 ```
 
 Add only the plugins you want.
@@ -21,7 +21,7 @@ Add only the plugins you want.
 |----------|------------------------------------------------------------|---------|
 | `crew`   | [astragenie/dev-team](https://github.com/astragenie/dev-team)     | Lead-guided engineering workflow, bounded subagents, quality gates |
 | `runner` | [astragenie/runner-plugin](https://github.com/astragenie/runner-plugin)               | Wiggin-Loop methodology, HARD RULE blocks, slice scaffold, phase-gate runner |
-| `cortex` | [astragenie/memory-plugin](https://github.com/astragenie/memory-plugin) | Slash commands + auto-capture hooks bridging Claude Code to the local cortex memory service |
+| `memory` | [astragenie/memory-plugin](https://github.com/astragenie/memory-plugin) | Slash commands + auto-capture hooks bridging Claude Code to the AstraMemory service |
 
 ## Releasing a new plugin version
 
