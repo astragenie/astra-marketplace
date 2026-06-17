@@ -1,7 +1,7 @@
 {
   "name": "astra",
   "metadata": {
-    "description": "Astra marketplace for Claude Code: lead-guided engineering workflow (`crew`), Wiggin-Loop methodology layer (`runner`), and AstraMemory bridge (`memory`). Central registry — plugins live in their own repos."
+    "description": "Astra marketplace for Claude Code: lead-guided engineering workflow (`crew`), spec-driven agentic dev engine (`runner`), and AstraMemory bridge (`memory`). Central registry — plugins live in their own repos."
   },
   "owner": {
     "name": "astra"
@@ -21,7 +21,7 @@
     },
     {
       "name": "runner",
-      "description": "Wiggin-Loop methodology layer for Claude Code with HARD RULE blocks, slice scaffold, and phase-gate runner",
+      "description": "Spec-driven agentic development engine for Claude Code: PM-triaged backlog, slice-scoped specs with Given-When-Then acceptance criteria, parallel-worktree wave dispatch, automated phase-gate quality + review + validation, and decision-grade retros. Built for fast, audited, regression-resistant code delivery at scale.",
       "version": "0.51.0",
       "source": {
         "source": "github",

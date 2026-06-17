@@ -20,7 +20,7 @@ Add only the plugins you want.
 | Plugin   | Repo                                                       | Purpose |
 |----------|------------------------------------------------------------|---------|
 | `crew`   | [astragenie/dev-team](https://github.com/astragenie/dev-team)     | Lead-guided engineering workflow, bounded subagents, quality gates |
-| `runner` | [astragenie/runner-plugin](https://github.com/astragenie/runner-plugin)               | Wiggin-Loop methodology, HARD RULE blocks, slice scaffold, phase-gate runner |
+| `runner` | [astragenie/runner-plugin](https://github.com/astragenie/runner-plugin)               | Spec-driven agentic dev engine — PM-triaged backlog, slice-scoped specs, parallel waves, phase-gate quality + review + validation |
 | `memory` | [astragenie/memory-plugin](https://github.com/astragenie/memory-plugin) | Slash commands + auto-capture hooks bridging Claude Code to the AstraMemory service |
 
 ## Releasing a new plugin version
