@@ -9,7 +9,7 @@
   "plugins": [
     {
       "name": "crew",
-      "description": "Lead-guided engineering workflow plugin for Claude Code with bounded subagents, quality gates, and inspectable handoffs",
+      "description": "Dispatcher-guided engineering workflow plugin for Claude Code with bounded subagents, parallel quality gates, and inspectable handoffs",
       "version": "0.41.0",
       "source": {
         "source": "github",
