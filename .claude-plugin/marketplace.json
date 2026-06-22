@@ -10,7 +10,7 @@
     {
       "name": "crew",
       "description": "Dispatcher-guided engineering workflow plugin for Claude Code with bounded subagents, parallel quality gates, and inspectable handoffs",
-      "version": "0.45.1",
+      "version": "0.46.0",
       "source": {
         "source": "github",
         "repo": "astragenie/dev-team"
