@@ -33,8 +33,8 @@
     },
     {
       "name": "memory",
-      "description": "Slash commands (/recall, /remember) + PreCompact and SessionEnd hooks bridging Claude Code to the AstraMemory service. Thin UX layer on top of the memory MCP server.",
-      "version": "0.2.0",
+      "description": "Slash commands (/recall, /remember) + auto-capture hooks + astramem CLI provider selector (local vs SaaS) + MCP tools (search_memory, recall_memory, remember, get_health). Bun-native TypeScript.",
+      "version": "0.4.0",
       "source": {
         "source": "github",
         "repo": "astragenie/memory-plugin"
