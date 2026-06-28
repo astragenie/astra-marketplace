@@ -1,7 +1,7 @@
 {
   "name": "astra",
   "metadata": {
-    "description": "Astra marketplace for Claude Code: lead-guided engineering workflow (`crew`), spec-driven agentic dev engine (`runner`), and AstraMemory bridge (`memory`). Central registry \u2014 plugins live in their own repos."
+    "description": "Astra marketplace for Claude Code: lead-guided engineering workflow (`crew`), spec-driven agentic dev engine (`runner`), and AstraMemory bridge (`astramem`). Central registry \u2014 plugins live in their own repos."
   },
   "owner": {
     "name": "astra"
@@ -32,12 +32,12 @@
       }
     },
     {
-      "name": "memory",
-      "description": "Slash commands (/recall, /remember) + auto-capture hooks + astramem CLI provider selector (local vs SaaS) + MCP tools (search_memory, recall_memory, remember, get_health). Bun-native TypeScript.",
-      "version": "0.4.0",
+      "name": "astramem",
+      "description": "Slash commands (/astramem:recall, /astramem:remember) + auto-capture hooks + astramem CLI provider selector (local vs SaaS) + MCP tools (search_memory, recall_memory, remember, get_health). Bun-native TypeScript.",
+      "version": "0.5.0",
       "source": {
         "source": "github",
-        "repo": "astragenie/memory-plugin"
+        "repo": "astragenie/astramem-plugin"
       },
       "author": {
         "name": "astra"
