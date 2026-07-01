@@ -34,7 +34,7 @@
     {
       "name": "astramem",
       "description": "Slash commands (/astramem:recall, /astramem:remember) + auto-capture hooks + astramem CLI provider selector (local vs SaaS) + MCP tools (search_memory, recall_memory, remember, get_health). Bun-native TypeScript.",
-      "version": "0.5.0",
+      "version": "0.5.1",
       "source": {
         "source": "github",
         "repo": "astragenie/astramem-plugin"
