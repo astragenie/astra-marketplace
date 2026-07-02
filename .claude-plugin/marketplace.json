@@ -1,7 +1,7 @@
 {
   "name": "astra",
   "metadata": {
-    "description": "Astra marketplace for Claude Code: lead-guided engineering workflow (`crew`), spec-driven agentic dev engine (`runner`), and AstraMemory bridge (`astramem`). Central registry \u2014 plugins live in their own repos."
+    "description": "Astra marketplace for Claude Code: lead-guided engineering workflow (`crew`), spec-driven agentic dev engine (`runner`), and AstraMemory bridge (`astramem`). Central registry — plugins live in their own repos."
   },
   "owner": {
     "name": "astra"
@@ -10,7 +10,7 @@
     {
       "name": "crew",
       "description": "Dispatcher-guided engineering workflow plugin for Claude Code with bounded subagents, parallel quality gates, and inspectable handoffs",
-      "version": "0.47.0",
+      "version": "0.48.0",
       "source": {
         "source": "github",
         "repo": "astragenie/dev-team"
@@ -22,7 +22,7 @@
     {
       "name": "runner",
       "description": "Spec-driven agentic development engine for Claude Code: free-text intake, PM-triaged backlog, slice-scoped specs with Given-When-Then acceptance criteria, parallel-worktree wave dispatch, automated phase-gate quality + review + validation, and decision-grade retros. Built for fast, audited, regression-resistant code delivery at scale.",
-      "version": "0.58.0",
+      "version": "0.60.0",
       "source": {
         "source": "github",
         "repo": "astragenie/runner-plugin"
