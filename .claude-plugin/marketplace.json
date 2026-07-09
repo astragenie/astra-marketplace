@@ -10,7 +10,7 @@
     {
       "name": "crew",
       "description": "Dispatcher-guided engineering workflow plugin for Claude Code with bounded subagents, parallel quality gates, and inspectable handoffs",
-      "version": "0.55.0",
+      "version": "0.56.0",
       "source": {
         "source": "github",
         "repo": "astragenie/dev-team"
@@ -22,7 +22,7 @@
     {
       "name": "runner",
       "description": "Spec-driven agentic development engine for Claude Code: free-text intake, PM-triaged backlog, slice-scoped specs with Given-When-Then acceptance criteria, parallel-worktree wave dispatch, automated phase-gate quality + review + validation, and decision-grade retros. Built for fast, audited, regression-resistant code delivery at scale.",
-      "version": "0.63.0",
+      "version": "0.67.0",
       "source": {
         "source": "github",
         "repo": "astragenie/runner-plugin"
