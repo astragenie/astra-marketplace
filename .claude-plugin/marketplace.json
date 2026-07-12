@@ -22,7 +22,7 @@
     {
       "name": "runner",
       "description": "Spec-driven agentic development engine for Claude Code: free-text intake, PM-triaged backlog, slice-scoped specs with Given-When-Then acceptance criteria, parallel-worktree wave dispatch, automated phase-gate quality + review + validation, and decision-grade retros. Built for fast, audited, regression-resistant code delivery at scale.",
-      "version": "0.71.0",
+      "version": "0.72.0",
       "source": {
         "source": "github",
         "repo": "astragenie/runner-plugin"
@@ -34,7 +34,7 @@
     {
       "name": "astramem",
       "description": "Slash commands (/astramem:recall, /astramem:remember) + auto-capture hooks + astramem CLI provider selector (local vs SaaS) + MCP tools (search_memory, recall_memory, remember, get_health). Bun-native TypeScript.",
-      "version": "0.6.1",
+      "version": "0.6.2",
       "source": {
         "source": "github",
         "repo": "astragenie/astramem-plugin"
