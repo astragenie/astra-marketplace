@@ -1,31 +1,19 @@
 {
   "name": "astra",
   "metadata": {
-    "description": "Astra marketplace for Claude Code: lead-guided engineering workflow (`crew`), spec-driven agentic dev engine (`runner`), and AstraMemory bridge (`astramem`). Central registry — plugins live in their own repos."
+    "description": "Astra marketplace for Claude Code: unified engineering OS (`devcrew` — dispatcher-guided crew workflow + spec-driven autonomous dev engine) and AstraMemory bridge (`astramem`). Central registry — plugins live in their own repos."
   },
   "owner": {
     "name": "astra"
   },
   "plugins": [
     {
-      "name": "crew",
-      "description": "Dispatcher-guided engineering workflow plugin for Claude Code with bounded subagents, parallel quality gates, and inspectable handoffs",
-      "version": "0.67.0",
+      "name": "devcrew",
+      "description": "Unified engineering OS for Claude Code: dispatcher-guided workflow with bounded subagents, parallel quality gates, and inspectable handoffs (formerly `crew`) plus a spec-driven agentic development engine — free-text intake, PM-triaged backlog, slice-scoped Given-When-Then specs, parallel-worktree wave dispatch, phase-gate quality + review + validation, and decision-grade retros (formerly `runner`). One plugin, one release train.",
+      "version": "1.0.0-rc.1",
       "source": {
         "source": "github",
-        "repo": "astragenie/dev-team"
-      },
-      "author": {
-        "name": "astra"
-      }
-    },
-    {
-      "name": "runner",
-      "description": "Spec-driven agentic development engine for Claude Code: free-text intake, PM-triaged backlog, slice-scoped specs with Given-When-Then acceptance criteria, parallel-worktree wave dispatch, automated phase-gate quality + review + validation, and decision-grade retros. Built for fast, audited, regression-resistant code delivery at scale.",
-      "version": "0.78.0",
-      "source": {
-        "source": "github",
-        "repo": "astragenie/runner-plugin"
+        "repo": "astragenie/dev-crew"
       },
       "author": {
         "name": "astra"
